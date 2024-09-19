@@ -1,0 +1,13 @@
+.h-0{
+    height: 0px !important;
+}
+@media(min-width: 767px){
+    .logo-size{
+        width: 310px;
+    }
+}
+@media(max-width: 766px){
+    .logo-size{
+        width: 250px;
+    }
+}

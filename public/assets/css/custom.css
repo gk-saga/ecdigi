@@ -1,0 +1,84 @@
+.fs-25 {
+    font-size: 25px !important;
+}
+
+.fs-22 {
+    font-size: 22px !important;
+}
+
+.fs-20 {
+    font-size: 20px !important;
+}
+
+.fs-18 {
+    font-size: 18px !important;
+}
+
+
+/* xxl */
+@media (min-width: 1400px) {}
+
+/* xl */
+@media (min-width: 1200px) {}
+
+/* large screen */
+@media (min-width: 992px) {}
+
+/* middle screen */
+@media (min-width: 768px) {}
+
+/* small scrren */
+@media (min-width: 578px) {
+    .mobile_stickey {
+        position: sticky;
+        top: 60px;
+    }
+}
+
+/* custom small screen */
+@media (max-width:576px) {
+    .w-sm-alt-75 {
+        width: 75%;
+    }
+
+    .bg-position {
+        background-position: 70% !important;
+    }
+
+    .text-sm-justify {
+        text-align: justify;
+    }
+
+    .service-icon {
+        width: 50%;
+    }
+
+    .profile-it-service {
+        padding-bottom: 0px;
+    }
+
+    .about-start {
+        margin-right: 0px !important;
+        border-radius: 0px 0px 8px 8px !important;
+    }
+
+    .about-end {
+        margin-left: 0px !important;
+        border-radius: 0px 0px 8px 8px !important;
+    }
+
+    .service-icon {
+        width: 50%;
+    }
+
+    .mobile_stickey {
+        position: inherit;
+    }
+
+    .carousel-caption {
+        padding: 0px 70px 0px 30px;
+    }
+    .carousel-caption .display-5 {
+        font-size: 20px;
+    }
+}
